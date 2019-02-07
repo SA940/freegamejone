@@ -1,0 +1,402 @@
+
+body{
+	margin:0px;
+	padding:0px;
+	background:url("image/slideimage/crysis.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	width:1200px;
+	height:0px;
+}
+
+
+.text-container h1{
+	
+	text-shadow:2px 0px 55px;
+	text-align:center;
+	padding-top:150px;
+	padding-bottom:20px;
+	color:rgba(225,0,0,.1);
+	font-size:76px;
+	background-image:url("image/slideimage/images.jpg");
+	
+	-webkit-background-clip:text;
+	animation: animate 15s linear infinite;
+	
+}
+	@keyframes animate {		
+		30%{
+			background-position: left 40px top 90px;
+			}
+		
+	40%{
+		background-position: left 80px top 100px;
+		}
+}
+.mrow{
+	background:black;
+	height:30px;
+	float:left;
+	margin-left:20%;
+	margin-bottom:50px;
+	
+}
+
+
+.mrow ul li{
+	float:left;
+	display:inline-block;
+	padding-right:20px;
+	padding-top:2px;
+
+}
+.mrow li a{
+	text-decoration:none;
+	color:white;
+	font-size:11px;
+	font-family:Verdana, Geneva, sans-serif;
+
+}
+
+.mrow ul a:hover{
+	
+	text-shadow:2px 0px 8px cyan;
+
+}
+.mybody{
+	
+	background:black;
+	margin-left:10%;
+	overflow:none;
+	
+
+}
+.Search{
+	
+	padding-right:50px;
+	padding-top:45px;
+	float:right;
+	
+	
+}
+ .srch-bar{
+	 background:black ;
+	 width:300px;
+	 height:35px;
+	 padding:10px;
+	 padding:10px;
+	 border:solid 1px Lightgray;
+	 border-radius:  0px 5px 5px 0;
+	 border-left:0px;
+	 position:relative;
+	 float:right;
+	color:white;
+ }
+ .srch-btn{
+	 background:black ;
+	 position:relative;
+	 float:right;
+	 height:35px;
+	 border:solid 1px  white;
+	 border-right:0px;
+	 border-radius: 5px 0px 0px 5px;
+	 color:white;
+	 
+ }
+.latestupdate{
+	padding-right:20px;
+	margin-top:-185px;
+	float:right;
+	display:block;
+	overflow:auto;
+}
+.latestupdate p{
+	color:white;
+	font-size:22px;
+	padding-left:10px;
+	
+}
+.update_newgame{
+	display:block;
+	overflow:none;
+	
+}
+.lupdate{
+	float:right;
+	overflow:auto;
+	padding-top:15px;
+	
+}
+.lupdate .newgame{
+	float:left;
+	width:110px;
+	height:90px;
+	
+}
+.lupdate p {
+	font-size:18px;
+	float:left;
+	padding-left:12px;
+	padding-top:35px;
+	color:white;
+
+}
+.lupdate p a{
+	color:white;
+
+}
+.lupdate a:hover{
+	text-shadow:2px 0px 6px white;
+	color:white;
+	text-decoration:none;
+}
+.my_menu{
+
+	float:left;
+	width:1000px;
+	height:40px;
+	margin-left:-90px;
+	margin-bottom:50px;
+}
+
+.my_menu ul{
+	padding-left:15px;
+	float:right;
+	margin-bottom:25px;
+	padding-bottom:20px;
+	padding-top:5px
+}
+.my_menu ul li {
+	padding:3px;
+}
+.my_menu ul li a{
+	
+	color:white;
+	padding-left:26px;
+	font-size:18px;
+	text-decoration:none;
+
+}
+.my_menu ul li a:hover{
+	overflow:none;
+	text-shadow:2px 0px 8px cyan;
+
+}
+.my_menu ul li  ul li  {
+	overflow:none;
+	font-size:11px;
+	list-style:none;
+	width:70px;
+	
+	
+}
+ 
+.my_menu  ul li  .dropdown ul li {
+	padding-left:10px;
+	float:left;
+	margin-top:45px;
+
+ }
+ .my_menu ul li  ul  {
+	display:none;
+	margin-top:30px;
+	margin-left:-85px;
+	
+	
+
+
+ }
+ .my_menu ul li  ul li a {
+	 
+	margin-left:-30px;
+	padding-left:25px;	
+
+
+ }
+ 
+ .my_menu ul li:hover ul {
+	background:#0e0f11;
+	display:block;
+	width:85px;
+ }
+ .my_menu ul li:hover ul li a {
+	 font-size:11px;
+	
+	 	
+ }
+.slideshow{
+	margin-top:15px;
+	margin-left:20px;
+
+}
+.mySlides #sldimg{
+	width:640px;
+	height:300px;
+	
+}
+
+.poster{
+	margin-top:5px;
+	overflow:auto;
+	
+}
+
+.posterimage{
+	display:block;
+	float:left;
+}
+.posterimage .imgs{
+	padding-left:22px;
+	padding-bottom:30px;
+	width:320px;
+	height:250px;
+	
+	
+}
+
+.msg{
+	padding-left:20px;
+	padding-top:-10px;
+	width:350px;
+	float:right;
+	color:white;
+	font-size:14px;
+}
+.title a{
+	
+	color:white;
+	text-decoration:none;
+}
+.title a:hover{
+	text-shadow:2px 0px 8px white;;
+}
+.pagination {
+  display: inline-block;
+padding-left:250px;
+}
+.gamerequest{
+	float:left;
+
+}
+.gamerequest p{
+	background:#0e0f11;
+	padding-left:25px;
+	padding:15px;
+	margin-top:20px;
+	margin-left:10px;
+	font-size:18px;
+	width:350px;
+}
+.gamerequest p a{
+	text-decoration:none;
+	padding-left:85px;
+	color:cyan;
+}
+.gamerequest p a:hover{
+	
+	text-shadow:2px 0px 8px white;
+	color:white;
+}
+
+.folow p{
+	font-size:18px;
+	margin-left:25px;
+}
+.follow ul  li {
+	
+	list-style:none;
+	display:inline-block;
+	font-size:25px;
+	padding-left:15px;
+	padding-right:15px;
+	margin-left:10px;
+	margin-top:35px;
+	text-align:center;
+	text-decoration:none;
+	border-radius:50%;
+	position:relative;
+	float:left;
+	
+	
+	 
+ }
+ .blink1{
+	 background:#0e0f11;
+	 float:left;
+	 margin-top:60px;
+	 padding-left:10px;
+	 padding-right:10px;
+	 padding-top:10px;
+	 font-size:12px;
+	 border-radius: 5px;
+ }
+ .blink1 p{
+	
+	 font-size:15px;
+ }
+ 
+ .follow ul li i{
+	 color:white;
+	 
+ }
+  .follow ul li:nth-child(1){
+	 
+	 background:#3b5998;
+	 
+ }
+ .follow ul li:nth-child(2){
+	 
+	background:#55acee;
+	 
+ }
+ .follow ul li:nth-child(3){
+	 
+	 background: #dc4e41;
+	 
+ }
+ .follow  ul li:nth-child(4){
+	 
+	 background: #517fa4;
+	 
+ }
+ .follow ul li:nth-child(5){
+	 
+	 background:#b31217 ;
+	 
+ }
+ .follow li a i:hover{
+	 
+	color:black;
+ }
+.pagination a {
+	
+  color: white;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+ 
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  border:solid 1px gray;
+
+  border-radius: 5px;
+}
+.hrline{
+	margin-top:-10px;
+	background:white;
+	margin-left:20px;
+}
+.vl {
+	border-left: 1px solid white;
+	margin-left:800px;
+	margin-top:-1990px;
+	height: 1900px;
+	overflow:auto;
+}
